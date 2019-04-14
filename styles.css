@@ -1,3 +1,28 @@
 body{
-    background-color: red;
+    background-color: grey;
+}
+.rightStuff
+{
+    display: "flex";
+    flex-direction: row;
+}
+.w
+{
+    opacity: 1;
+    flex: none;
+}
+.i
+{
+    opacity: 1;
+    flex: none;
+}
+.l
+{
+    opacity: 1;
+    flex: none;
+}
+.o
+{
+    opacity: 1;
+    flex: none;
 }
