@@ -4,27 +4,27 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <form>
+        <form name="calcMain" onsubmit="doCalculation(); return false;">
             <input type="text" id="userInput1">
-            <input type="text" id="userInput2">
+            <input name="calc" type="text" id="userInput2">
 
             <label for="addition">Addition</label>
-            <input type="radio" id="addition" value="addition">
+            <input name="calc" type="radio" id="addition" value="addition">
 
             <label for="subtraction">Subtraction</label>
-            <input type="radio" id="subtraction" value="subtraction">
+            <input name="calc" type="radio" id="subtraction" value="subtraction">
 
             <label for="multiplication">Multiplication</label>
-            <input type="radio" id="multiplication" value="multiplication">
+            <input name="calc" type="radio" id="multiplication" value="multiplication">
 
             <label for="division">Division</label>
-            <input type="radio" id="division" value="division">
+            <input name="calc" type="radio" id="division" value="division">
 
             <label for="modulus">Modulus</label>
-            <input type="radio" id="modulus" value="modulus">
+            <input name="calc" type="radio" id="modulus" value="modulus">
 
-            <button type="button">Go</button>
+            <button type="submit" id="goButton">Go</button>
         </form>
     </body>
-    <script src="scripts.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
 </html>
